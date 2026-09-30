@@ -1,0 +1,17 @@
+{
+  "model": "openai-community/gpt2",
+  "train_data": "data/prosqa_train.json",
+  "validation_data": "data/prosqa_valid.json",
+  "output_dir": "runs/prosqa",
+  "max_stage": 6,
+  "epochs_per_stage": 5,
+  "total_epochs": 50,
+  "batch_size": 32,
+  "accumulation_steps": 1,
+  "learning_rate": 0.0001,
+  "weight_decay": 0.01,
+  "warmup_steps": 10,
+  "max_length": 1024,
+  "seed": 42,
+  "bf16": true
+}

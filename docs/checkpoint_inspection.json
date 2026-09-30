@@ -1,0 +1,38 @@
+[
+  {
+    "checkpoint": "coconut_stage-6_epoch-15",
+    "weight_sha256": "15a6d0ab0aa73c4d5f34a9a3731dd5d1b2fc8e05033cc0c27dd4f1e8324337d6",
+    "weight_bytes": 497783424,
+    "vocab_size": 50260,
+    "control_tokens": {
+      "<thought>": 50257,
+      "<bot>": 50258,
+      "<eot>": 50259
+    },
+    "has_answer_marker": false,
+    "saved_transformers_version": "5.13.1",
+    "parameter_count": 124442112,
+    "tensor_count": 148,
+    "validation": "safetensors model loaded; one CPU forward pass returned finite logits",
+    "benchmark_status": "fresh evaluations are recorded separately with explicit inference settings; original evaluation protocol unavailable",
+    "dataset": "ProsQA (confirmed by author)"
+  },
+  {
+    "checkpoint": "coconut_stage-6_epoch-6-t2",
+    "weight_sha256": "76fa1ff3da8d160f594754e85324af7955da74b813451b5f9f8c27157e021365",
+    "weight_bytes": 497783424,
+    "vocab_size": 50260,
+    "control_tokens": {
+      "<thought>": 50257,
+      "<bot>": 50258,
+      "<eot>": 50259
+    },
+    "has_answer_marker": false,
+    "saved_transformers_version": "5.13.1",
+    "parameter_count": 124442112,
+    "tensor_count": 148,
+    "validation": "safetensors model loaded; one CPU forward pass returned finite logits",
+    "benchmark_status": "fresh evaluations are recorded separately with explicit inference settings; original evaluation protocol unavailable",
+    "dataset": "ProsQA (confirmed by author)"
+  }
+]

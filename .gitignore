@@ -1,0 +1,30 @@
+# Credentials and machine-specific files
+.env
+.env.*
+!.env.example
+*token*.txt
+*.pem
+*.key
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.DS_Store
+.cache/
+build/
+dist/
+
+# Downloaded data and generated artifacts
+data/*.json
+!data/example.json
+!data/archive_manifest.json
+checkpoints/
+runs/
+*.pt
+*.pth
+*.safetensors
+*.zip

@@ -1,0 +1,12 @@
+[
+  {
+    "question": "Every maple is a tree. Ada is a maple. Is Ada a tree?",
+    "steps": ["Ada is a maple.", "Every maple is a tree."],
+    "answer": "Ada is a tree."
+  },
+  {
+    "question": "Every robin is a bird. Lee is a robin. Is Lee a bird?",
+    "steps": ["Lee is a robin.", "Every robin is a bird."],
+    "answer": "Lee is a bird."
+  }
+]

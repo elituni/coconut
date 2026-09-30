@@ -1,0 +1,14 @@
+{
+  "source": "main.ipynb inside the supplied coconut.zip",
+  "notebook_sha256": "8ab799b166a697f8fbee1fc76b3b3ef38680a06265dfbde2a43f94b0c829df80",
+  "status": "archived notebook output; not reproduced during cleanup",
+  "checkpoint": "checkpoints/coconut_stage-6_epoch-20-batched",
+  "dataset": "prosqa_valid.json",
+  "correct": 241,
+  "total": 300,
+  "accuracy": 0.8033333333333333,
+  "dataset_sha256": "c74e0de24f1e90ec48b1a993e6458a7be4caeef3928f5104e3c2e45d689a5249",
+  "evaluation_max_thoughts_loop": 12,
+  "max_new_tokens": 50,
+  "inference_caveat": "Original code seeded a thought list before consumption and could assemble up to 13 embeddings. The cleanup corrects counting and restores the training newline. This output does not benchmark the revised implementation."
+}

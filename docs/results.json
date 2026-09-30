@@ -1,0 +1,109 @@
+{
+  "note": "Fresh local validation runs with explicitly recorded settings; original checkpoint evaluation protocol unavailable. Raw predictions and weights are kept locally, outside Git.",
+  "runs": [
+    {
+      "run": "cp15-fixed6",
+      "checkpoint": "coconut_stage-6_epoch-15",
+      "weight_sha256": "15a6d0ab0aa73c4d5f34a9a3731dd5d1b2fc8e05033cc0c27dd4f1e8324337d6",
+      "correct": 269,
+      "total": 300,
+      "accuracy": 0.8966666666666666,
+      "dataset": "prosqa_valid.json",
+      "data_sha256": "c74e0de24f1e90ec48b1a993e6458a7be4caeef3928f5104e3c2e45d689a5249",
+      "generation": {
+        "max_thoughts": 6,
+        "max_new_tokens": 50,
+        "latent_policy": "fixed",
+        "eot_newline": true
+      },
+      "answer_format": "plain",
+      "torch": "2.8.0+cpu",
+      "transformers": "4.51.3",
+      "device": "cpu",
+      "precision": "float32",
+      "thought_counts": {
+        "6": 300
+      },
+      "eos_completions": 300,
+      "prediction_file_sha256": "b92a8027d1efae88db5a4e69cc77b5966b50b21532bcf7aa3f570cc765b635ba"
+    },
+    {
+      "run": "cp6-t2-fixed6",
+      "checkpoint": "coconut_stage-6_epoch-6-t2",
+      "weight_sha256": "76fa1ff3da8d160f594754e85324af7955da74b813451b5f9f8c27157e021365",
+      "correct": 264,
+      "total": 300,
+      "accuracy": 0.88,
+      "dataset": "prosqa_valid.json",
+      "data_sha256": "c74e0de24f1e90ec48b1a993e6458a7be4caeef3928f5104e3c2e45d689a5249",
+      "generation": {
+        "max_thoughts": 6,
+        "max_new_tokens": 50,
+        "latent_policy": "fixed",
+        "eot_newline": true
+      },
+      "answer_format": "plain",
+      "torch": "2.8.0+cpu",
+      "transformers": "4.51.3",
+      "device": "cpu",
+      "precision": "float32",
+      "thought_counts": {
+        "6": 300
+      },
+      "eos_completions": 300,
+      "prediction_file_sha256": "55294fc09f7b42fae6c5da3825421f923c2fd7deebaf62a1a0dbeb51ff569fb9"
+    },
+    {
+      "run": "cp15-adaptive12",
+      "checkpoint": "coconut_stage-6_epoch-15",
+      "weight_sha256": "15a6d0ab0aa73c4d5f34a9a3731dd5d1b2fc8e05033cc0c27dd4f1e8324337d6",
+      "correct": 269,
+      "total": 300,
+      "accuracy": 0.8966666666666666,
+      "dataset": "prosqa_valid.json",
+      "data_sha256": "c74e0de24f1e90ec48b1a993e6458a7be4caeef3928f5104e3c2e45d689a5249",
+      "generation": {
+        "max_thoughts": 12,
+        "max_new_tokens": 50,
+        "latent_policy": "adaptive",
+        "eot_newline": true
+      },
+      "answer_format": "plain",
+      "torch": "2.8.0+cpu",
+      "transformers": "4.51.3",
+      "device": "cpu",
+      "precision": "float32",
+      "thought_counts": {
+        "12": 300
+      },
+      "eos_completions": 300,
+      "prediction_file_sha256": "10e82e2362f2626c3e70a442cb8ac8123f7fbd4f6ae7eb2a73c47376d954a47b"
+    },
+    {
+      "run": "cp6-t2-adaptive12",
+      "checkpoint": "coconut_stage-6_epoch-6-t2",
+      "weight_sha256": "76fa1ff3da8d160f594754e85324af7955da74b813451b5f9f8c27157e021365",
+      "correct": 265,
+      "total": 300,
+      "accuracy": 0.8833333333333333,
+      "dataset": "prosqa_valid.json",
+      "data_sha256": "c74e0de24f1e90ec48b1a993e6458a7be4caeef3928f5104e3c2e45d689a5249",
+      "generation": {
+        "max_thoughts": 12,
+        "max_new_tokens": 50,
+        "latent_policy": "adaptive",
+        "eot_newline": true
+      },
+      "answer_format": "plain",
+      "torch": "2.8.0+cpu",
+      "transformers": "4.51.3",
+      "device": "cpu",
+      "precision": "float32",
+      "thought_counts": {
+        "12": 300
+      },
+      "eos_completions": 300,
+      "prediction_file_sha256": "9389f38c89a8da8cf80f8b407fa8523897cbde01d4b9f168f89dbda0c2b2e673"
+    }
+  ]
+}
